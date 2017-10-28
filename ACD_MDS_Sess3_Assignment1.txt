@@ -1,0 +1,24 @@
+
+def myfilter():
+    div = []
+    for i in fi:
+        if i%2 == 0:
+            div.append(i)
+
+
+fi = [1,2,3,4,5,6,7,8]
+map(myfilter,fi)
+print(div)
+
+[2, 4, 6, 8]
+
+----------------------myreduce
+
+def myreduce():
+    res = 0
+    for i in gr:
+        res = res + i
+    print(res)
+
+gr = [43,45,77,767,8]
+map(myreduce,gr)
